@@ -82,7 +82,7 @@ const Experiences = () => {
           </VideoArea>
           <SectionHeader>
             <Heading
-              content='"Dev Hackathon Vol3" тэмцээний ерөнхий ивээн тэтгэгч'
+              content='"Dev Hackathon Vol4" тэмцээний  ивээн тэтгэгч'
               style={{ marginBottom: 0 }}
             />
           </SectionHeader>

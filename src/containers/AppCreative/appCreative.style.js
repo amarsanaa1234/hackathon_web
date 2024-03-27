@@ -112,10 +112,11 @@ export const SectionHeader = styled.header`
   margin: 0 auto 50px;
   text-align: center;
   position: relative;
-  background-color: #383848;
   padding: 20px;
   border-radius: 32px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.2) 90%);
+
   @media only screen and (max-width: 768px) {
     margin-bottom: 45px;
   }

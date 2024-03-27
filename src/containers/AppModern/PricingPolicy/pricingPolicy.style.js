@@ -123,7 +123,7 @@ export const PricingCard = styled.div`
     font-size: 14px;
     font-weight: 700;
     text-transform: capitalize;
-    background-color: #6c247e;
+    // background-color: #6c247e;
     img {
       margin-right: 6px;
     }

@@ -193,14 +193,40 @@ export const ExperienceWrapper = styled.div`
     padding: 0;
   }
   .experience__item {
+
     display: flex;
     align-items: flex-start;
     padding: 20px 70px;
     margin: 20px 40px 35px 0px;
+
+
     width: 46%;
-    background-color: #383848;
-    border-radius: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    align-items: flex-start;
+    place-items: center;
+    gap: 25px;
+    padding: 2.5rem;
+    display: flex;
+    cursor: pointer;
+    // background-color: #84CEEB; 
+    // background-image: linear-gradient(45deg, #5AB9EA 25%, transparent 25%),
+    //   linear-gradient(-45deg, #84CEEB 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #5680E9 75%),
+    //   linear-gradient(-45deg, transparent 75%, #84CEEB 75%);
+    background-size: 25px 25px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+
+
+
+    background-color: #5680E9; 
+    background-image: linear-gradient(45deg, #5680E9 25%, transparent 25%),
+      linear-gradient(-45deg, #5680E9 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #698CE3 75%),
+      linear-gradient(-45deg, transparent 75%, #5680E9 75%); 
+
+
+    &:hover {
+      background-size: 32px 32px;
+    }
     @media only screen and (max-width: 1366px) {
       padding: 20px 40px;
     }
@@ -231,7 +257,54 @@ export const ExperienceWrapper = styled.div`
         margin-bottom: 15px;
         margin-right: 0px;
       }
+
+  }
+  
+    @media only screen and (max-width: 1366px) {
+      padding: 20px 40px;
     }
+    @media only screen and (max-width: 1219px) {
+      padding: 20px 15px;
+      width: 60%;
+      margin: 20px 0px 35px 0px;
+    }
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px 15px;
+      width: 100%;
+    }
+    @media only screen and (max-width: 624px) {
+      padding: 20px 50px;
+      width: 100%;
+    }
+    @media only screen and (max-width: 480px) {
+      padding: 20px 20px;
+    }
+    .icon__wrapper {
+      margin-right: 20px;
+      flex-shrink: 0;
+      @media only screen and (max-width: 768px) {
+        margin-bottom: 15px;
+        margin-right: 0px;
+      }
+      
+    }
+    @keyframes scrollText {
+      0% {
+        transform: translateX(80%);
+      }
+      100% {
+        transform: translateX(-80%);
+      }
+    }    
+
+:hover {
+  background-size: 30px 30px;
+  ;
+
 
     h4 {
       margin: -3px 0 18px;
@@ -249,14 +322,14 @@ export const ExperienceWrapper = styled.div`
     p {
       color: ${themeGet("colors.white", "#ffffff")};
       font-size: 15px;
-      line-height: 1.9;
+      line-height: 1.2;
       margin: 0;
     }
   }
 `;
 
 export const ImageSlider = styled.div`
-  width: 100%;
+  width: 100%; 
   display: flex;
   align-items: center;
   flex-wrap: nowrap;

@@ -114,15 +114,15 @@ import videoTheme from "../../assets/image/appCreative/experienceVideo.png";
 
 // Client Logo
 import CallPro from "../../assets/image/appCreative/client_logo/8.png";
-import puzzleIcon from "../../assets/image/appCreative/client_logo/6.png";
-import SystemCenter from "../../assets/image/appCreative/client_logo/5.png";
+// import puzzleIcon from "../../assets/image/appCreative/client_logo/6.png";
+// import SystemCenter from "../../assets/image/appCreative/client_logo/5.png";
 import fibo from "../../assets/image/appCreative/client_logo/1.png";
 import naashaaIcon from "../../assets/image/appCreative/client_logo/4.png";
 export const event = {
   icon: CallPro,
-  title: "Call Pro",
+  title: "Databank",
   description:
-    "Бид технологийн тусламжтайгаар байгууллага, хэрэглэгч хоёрыг хооронд нь ухаалгаар холбож, уян хатан систем, бүрэн интеграцичлагдах боломжуудаар хангаж ажиллана.",
+    "Төлбөрийн системийн хялбар болон цогц шийдлийг таны БИЗНЕСТ. Дэлхийн технологийг дэргэдээсээ",
 };
 export const experiences = {
   title: "Зохион байгуулагч",
@@ -143,20 +143,7 @@ export const experiences = {
       description:
         "Internet болон E-Commerce нь улс үндэстэн болон байршлаас үл хамааран бүгдэд адил боломжийг олгодог бөгөөд энэ боломжоо алдалгүй ашиглахад бид танд тусална.",
     },
-    {
-      id: 3,
-      icon: SystemCenter,
-      title: "System Center",
-      description: "Дэлхийд өрсөлдөх Монгол инженерийг БИД бэлтгэнэ.",
-    },
 
-    {
-      id: 4,
-      icon: puzzleIcon,
-      title: "Urgoo Puzzle",
-      description:
-        "Бүтээлч сэтгэхүйг ирээдүйд уриан дор бид сэтгэхүй хөгжүүлэх болон шинэ содон бараа бүтээгдэхүүнийг хөгжүүлэн гаргаж байна.",
-    },
   ],
   clients: [
     {
@@ -177,18 +164,7 @@ export const experiences = {
       name: "Nasha Tech",
       link: "https://www.nashatech.com",
     },
-    {
-      id: 4,
-      logo: SystemCenter,
-      name: "System Center",
-      link: "https://www.ict-training.mn/?fbclid=IwAR12KIpBUYODkWq85vwCtMwD1rW3KuO_-_UbWE7jOc06859-GqIwpLByOOM",
-    },
-    {
-      id: 5,
-      logo: puzzleIcon,
-      name: "Zochil.mn",
-      link: "https://www.facebook.com/urgoopuzzle",
-    },
+
   ],
 };
 
