@@ -321,7 +321,7 @@ export const ExperienceWrapper = styled.div`
 
     p {
       color: ${themeGet("colors.white", "#ffffff")};
-      font-size: 15px;
+      font-size: 15.7px;
       line-height: 1.2;
       margin: 0;
     }

@@ -204,7 +204,7 @@ export const PriceTable = styled.div`
     margin-top: 41px;
     border-radius: 5px;
     border: 2px solid ${rgba('#6C247E', 0.2)};
-    color: ${themeGet('colors.primary', '#6C247E')};
+    color: ${themeGet('colors.primary', '#ffffff')};
     letter-spacing: -0.5px;
     background-color: ${themeGet('colors.white')};
     font-weight: 700;
