@@ -69,7 +69,7 @@ export const MenuArea = styled.div`
   display: flex;
   align-items: center;
   margin-left: 289px;
-  @media only screen and (max-width: 1250px) {
+  @media only screen and (max-width: 1300px) {
     margin-left: 80px;
   }
   .menu {
