@@ -13,6 +13,7 @@ import KeyFeatures from "../KeyFeatures";
 const ChooseUs = () => {
   const { features, thumb } = chooseUs;
   const { price, slogan, title } = pricePool;
+    const stringWithLT = "<2024/>";
   return (
     <SectionWrapper id="keyFeatures">
       <div style={{ marginTop: 50 }} />
@@ -31,7 +32,6 @@ const ChooseUs = () => {
         </ThumbWrapper>
          <ThumbWrapper>
           <NextImage src={thumb} alt="App Image"/>
-          <h2>Hackathon Vol3</h2>
           <h3>Student competition</h3>
           <p>2024 - 2025 SEASON</p>
           <div id="hidden_navbar">

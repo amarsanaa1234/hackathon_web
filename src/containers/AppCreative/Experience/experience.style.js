@@ -193,13 +193,6 @@ export const ExperienceWrapper = styled.div`
     padding: 0;
   }
   .experience__item {
-
-    display: flex;
-    align-items: flex-start;
-    padding: 20px 70px;
-    margin: 20px 40px 35px 0px;
-
-
     width: 46%;
     align-items: flex-start;
     place-items: center;
@@ -207,26 +200,8 @@ export const ExperienceWrapper = styled.div`
     padding: 2.5rem;
     display: flex;
     cursor: pointer;
-    // background-color: #84CEEB; 
-    // background-image: linear-gradient(45deg, #5AB9EA 25%, transparent 25%),
-    //   linear-gradient(-45deg, #84CEEB 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #5680E9 75%),
-    //   linear-gradient(-45deg, transparent 75%, #84CEEB 75%);
-    background-size: 25px 25px;
     border-radius: 10px;
-    transition: all 0.5s;
-    
-
-
-
-    background-color: #5680E9; 
-    background-image: linear-gradient(45deg, #5680E9 25%, transparent 25%),
-      linear-gradient(-45deg, #5680E9 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #698CE3 75%),
-      linear-gradient(-45deg, transparent 75%, #5680E9 75%); 
-
-
-    &:hover {
-      background-size: 32px 32px;
-    }
+      background-color: rgba(14, 14, 33, .7);
     @media only screen and (max-width: 1366px) {
       padding: 20px 40px;
     }
@@ -299,12 +274,7 @@ export const ExperienceWrapper = styled.div`
       100% {
         transform: translateX(-80%);
       }
-    }    
-
-:hover {
-  background-size: 30px 30px;
-  ;
-
+    }
 
     h4 {
       margin: -3px 0 18px;

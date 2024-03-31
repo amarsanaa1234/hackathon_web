@@ -21,7 +21,11 @@ import bannerImg from "common/assets/image/appCreative/main_logo.png";
 import bannerImgMobile from "common/assets/image/appCreative/availableThumb.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import backgroundImage from "common/assets/image/appCreative/1_1.png";
+import {VideoArea} from "../Experience/experience.style";
+import {experiences} from "../../../common/data/AppCreative";
+import { ic_play_arrow } from "react-icons-kit/md/ic_play_arrow";
 
+const { slogan, title, features, video_theme, clients } = experiences;
 // close button for modal
 const CloseModalButton = () => (
   <Button
@@ -80,14 +84,14 @@ const Banner = () => {
             </Fade>
           </div>
           <Fade up delay={100}>
-            <Heading as="h1" content={`"Dev Hackathon Vol3 - 2023"`} />
+            <Heading as="h1" content={`"Dev Hackathon <2024/>"`} />
           </Fade>
           <Fade up delay={200}>
             <Text
               style={{
                 lineHeight: "1.6",
               }}
-              content={`“Dev Hackathon Vol3 - 2023” Оюутан залуусын чөлөөт цагийг зөв боловсон үр дүнтэй өнгөрүүлэх, мэдлэг боловсрол бүтээлч сэтгэлгээг хөгжүүлэх, ажлын байранд бэлтгэх, улмаар улс орны хөгжилд нөлөөлөхүйц бүтээлүүдийг технологийн шийдлээр бий болгох зорилготойгоор "..." сэдвийн хүрээнд зохион байгуулагдаж байна`}
+              content={`“Dev Hackathon <2024/>” Оюутан залуусын чөлөөт цагийг зөв боловсон үр дүнтэй өнгөрүүлэх, мэдлэг боловсрол бүтээлч сэтгэлгээг хөгжүүлэх, ажлын байранд бэлтгэх, улмаар улс орны хөгжилд нөлөөлөхүйц бүтээлүүдийг технологийн шийдлээр бий болгох зорилготойгоор "..." сэдвийн хүрээнд зохион байгуулагдаж байна`}
             />
           </Fade>
           <Fade up delay={300}>
@@ -111,12 +115,13 @@ const Banner = () => {
             </ButtonGroup>
           </Fade>
         </BannerContent>
-        <BannerImage>
-          <NextImage src={bannerImg} alt="Banner" />
-        </BannerImage>
-        <BannerImageMobile>
-          <NextImage src={bannerImgMobile} alt="Mobile Banner" />
-        </BannerImageMobile>
+        <VideoArea onClick={handleVideoModal}>
+          <NextImage src={video_theme} alt="Microsoft" />
+          <Button
+              className="video__btn"
+              icon={<Icon className="plus" icon={ic_play_arrow} />}
+          />
+        </VideoArea>
       </Container>
     </BannerWrapper>
   );

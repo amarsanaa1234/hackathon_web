@@ -59,8 +59,8 @@ const SectionWrapper = styled.section`
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    filter: drop-shadow(0px 0px 4px #002C4C);
-    background: -webkit-linear-gradient(#31C8DB 10%, #176490 90%);
+    background-color: rgba(14, 14, 33, .7);
+    background-image: -webkit-linear-gradient(#ffffff, #CBB593 50%, #948A76 55%, #ffe2b4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

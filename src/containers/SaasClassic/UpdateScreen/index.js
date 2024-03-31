@@ -71,7 +71,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, endTime }) => {
           <Text {...secText} content="Sys&CoTech club" />
           <Heading
             {...secHeading}
-            content={`"Dev Hackathon Vol4 - 2024" бүртгүүлэх`}
+            content={`"Dev Hackathon <2024/>" бүртгүүлэх`}
           />
         </Box>
         <Tabs
@@ -101,7 +101,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, endTime }) => {
                   margin: 30,
                 }}
               >
-                {`"Dev Hackathon Vol4 - 2024" тэмцээний бүртгэл нээгдсэн.`}
+                {`"Dev Hackathon <2024/>" тэмцээний бүртгэл нээгдсэн.`}
               </Alert>
             ) : (
               <>
@@ -155,7 +155,7 @@ UpdateScreen.defaultProps = {
     fontSize: "14px",
     letterSpacing: "0.15em",
     fontWeight: "700",
-    color: "#6C247E",
+    color: "rgba(14, 14, 33, .7)",
     mb: "12px",
   },
   secHeading: {

@@ -142,18 +142,18 @@ export const ButtonGroup = styled.div`
     padding-right: 20px;
     margin-top: 10px;
     &.primary {
-      background-color: ${themeGet("colors.primary", "#6C247E")};
+      background-color: rgba(14, 14, 33, .7);
       color: ${themeGet("colors.white")};
       font-size: 15px;
       min-height: 55px;
       &:hover {
-        box-shadow: 0px 9px 20px -5px rgba(108, 36, 126, 0.57);
+        box-shadow: 0px 9px 20px -5px rgba(14, 14, 33, .7);
       }
     }
 
     &.text {
       font-size: 17px;
-      color: ${themeGet("colors.priamry", "#6C247E")};
+      color: rgba(14, 14, 33, .7);
       letter-spacing: -0.3px;
       font-weight: 700;
       margin-left: 5px;

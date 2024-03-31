@@ -59,7 +59,7 @@ const Navbar = () => {
             <Button
               className="menubarRegitser"
               title="Бүртгүүлэх "
-              color="#6C247E"
+              color="rgba(14, 14, 33, .7)"
               borderRadius="60px"
               minHeight="40px"
               variant="outlined"

@@ -46,24 +46,6 @@ const Experiences = () => {
   const { slogan, title, features, video_theme, clients } = experiences;
 
   // modal handler
-  const handleVideoModal = () => {
-    openModal({
-      config: {
-        className: "video-modal",
-        disableDragging: true,
-        default: {
-          width: "auto",
-          height: "auto",
-          x: 0,
-          y: 0,
-        },
-      },
-      component: ModalContent,
-      componentProps: {},
-      closeComponent: CloseModalButton,
-      closeOnClickOutside: true,
-    });
-  };
 
   return (
     <SectionWrapper id="experience">
@@ -73,16 +55,9 @@ const Experiences = () => {
           <Text content="ШУТИС-МХТС Sys&CoTech клуб нь 2009 оноос хойш мэдээллийн технологийн чиглэлийн оюутнуудад зориулсан олон ажил, үйл ажиллагааг удирдан зохион байгуулж явуулсаар байна." />
         </SectionHeader>
         <ExperienceMainWrap>
-          <VideoArea onClick={handleVideoModal}>
-            <NextImage src={video_theme} alt="Microsoft" />
-            <Button
-              className="video__btn"
-              icon={<Icon className="plus" icon={ic_play_arrow} />}
-            />
-          </VideoArea>
           <SectionHeader>
             <Heading
-              content='"Dev Hackathon Vol4" тэмцээний  ивээн тэтгэгч'
+              content='"Dev Hackathon <2024/>" тэмцээний ерөнхий ивээн тэтгэгч'
               style={{ marginBottom: 0 }}
             />
           </SectionHeader>

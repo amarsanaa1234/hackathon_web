@@ -77,7 +77,7 @@ export const AppWrapper = styled.div`
         li {
           &.is-current {
             a {
-              color: ${themeGet("colors.primary", "#6C247E")};
+              color: ${themeGet("colors.primary", "rgba(14, 14, 33, .7)")};
             }
           }
         }

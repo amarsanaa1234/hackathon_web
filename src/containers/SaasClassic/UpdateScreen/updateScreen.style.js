@@ -43,7 +43,7 @@ const SectionWrapper = styled.section`
         position: absolute;
         width: 100%;
         height: 1px;
-        background: #6c247e;
+        background: rgba(14, 14, 33, .7);
         display: block;
         left: 0;
         bottom: 0;

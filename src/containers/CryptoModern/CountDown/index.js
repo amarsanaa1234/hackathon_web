@@ -93,7 +93,7 @@ const CountDownSection = ({ deadline, endTime }) => {
             <Fade up>
               <Heading
                 as="h1"
-                content={`"Dev Hackathon Vol3 - 2024" бүртгэл хаагдахад`}
+                content={`"Dev Hackathon <2024/>" бүртгэл хаагдахад`}
                 style={{ margin: 0 }}
               />
               {/* <Text content={slogan} /> */}
@@ -108,7 +108,7 @@ const CountDownSection = ({ deadline, endTime }) => {
                 margin: 30,
               }}
             >
-              {`"Dev Hackathon Vol3 - 2023" тэмцээний бүртгэл хаагдсан.`}
+              {`"Dev Hackathon <2024/>" тэмцээний бүртгэл хаагдсан.`}
             </Alert>
           ) : (
             <>

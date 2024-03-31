@@ -25,6 +25,7 @@ import logoImg from "common/assets/image/appCreative/main_logo.png";
 import Fade from "react-reveal/Fade";
 import Header from "../components/Header"
 import KeyFeatures from "containers/AppCreative/KeyFeatures";
+import MainBanner from "../containers/AppCreative/MainBanner";
 
 // Дуусах хугацаа
 const deadline = moment("2024-04-26");
@@ -37,21 +38,21 @@ export default function index() {
       <Fragment>
         <Head>
           <title>Sys&CoTech club | SICT</title>
-          <meta name="theme-color" content="#10ac84" />
-          <meta name="description" content="Sys&CoTech" />
+          <meta name="theme-color" content="#10ac84"/>
+          <meta name="description" content="Sys&CoTech"/>
           <meta
-            name="keywords"
-            content="Dev Hackathon Vol3, Sys&CoTech club, syscotech"
+              name="keywords"
+              content="Dev Hackathon <2024/>, Sys&CoTech club, syscotech"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
-            rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+              rel="stylesheet"
           />
         </Head>
         {/* end of head */}
 
-        <ResetCSS />
-        <GlobalStyle />
+        <ResetCSS/>
+        <GlobalStyle/>
         {/* end of global and reset style */}
 
         {/* start app creative landing */}
@@ -61,6 +62,7 @@ export default function index() {
           </Sticky>
           <Header/>
           <ContentWrapper>
+            <MainBanner/>
             <Banner />
             {<CountDownSection deadline={deadline} endTime={endTime} />}
             <Experiences />

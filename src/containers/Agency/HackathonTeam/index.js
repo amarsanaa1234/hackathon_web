@@ -206,7 +206,7 @@ const HackathonTeam = ({
         className="primary"
         title="Багийн гишүүн нэмэх"
         {...btnStyle}
-        style={{ borderRadius: 5 }}
+        style={{ borderRadius: 5, backgroundColor:'rgba(14, 14, 33, .7)'}}
       />
     </Fragment>
   );
@@ -269,7 +269,7 @@ const HackathonTeam = ({
               {!registerSuccess && (
                 <Alert
                   style={{
-                    backgroundColor: "#6C247E",
+                    backgroundColor: "rgba(14, 14, 33, .7)",
                     color: '#ffffff',
                     marginBottom: 30,
                   }}

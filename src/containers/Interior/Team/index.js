@@ -53,7 +53,7 @@ const Team = () => {
       <Container width="1360px">
         <Fade bottom>
           <SectionHeader>
-            <Heading as="h5" content="Dev Hackathon Vol3 - 2023" />
+            <Heading as="h5" content="Dev Hackathon <2024/>" />
             <Heading content="Шүүгч, Ментор-ууд" />
           </SectionHeader>
         </Fade>

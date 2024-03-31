@@ -55,11 +55,11 @@ export default function Header() {
             });
               `}
           </Script>
-          <div id="particles-background" class="vertical-centered-box"></div>
-          <div id="particles-foreground" class="vertical-centered-box"></div>
+          <div id="particles-background" className="vertical-centered-box"></div>
+          <div id="particles-foreground" className="vertical-centered-box"></div>
 
-          <div class="vertical-centered-box">
-            <div class="content">
+          <div className="vertical-centered-box">
+            <div className="content">
             </div>
           </div>
         </div>

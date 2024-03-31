@@ -72,26 +72,22 @@ export const pricePool = {
 // Choose us data section
 /* ------------------------------------ */
 import chooseThumb from "../../assets/image/appCreative/bigLogo.png";
+import MainLogoblack from "../../assets/image/appCreative/2024MainLogoblack.png";
+import MainLogo from "../../assets/image/appCreative/2024MainLogo.png";
 
 export const chooseUs = {
-  thumb: chooseThumb,
+  thumb: MainLogo,
   features: [
     {
       id: 1,
       title: "БҮРТГЭЛ",
-      date: "APR 10-26",
+      date: "APR 04-24",
       description: "Online",
     },
     {
       id: 2,
       title: "ТЭМЦЭЭНИЙ ӨДӨР",
       date: "APR 27-28",
-      description: "Танхим",
-    },
-    {
-      id: 3,
-      title: "ШАГНАЛ ГАРДУУЛАЛД",
-      date: "APR 28",
       description: "Танхим",
     },
   ],

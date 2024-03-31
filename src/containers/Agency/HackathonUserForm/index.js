@@ -244,8 +244,10 @@ const HackathonUserForm = ({
   };
 
   const teamRegister = async (data) => {
+    console.log('data', data);
     toast.promise(
       new Promise((res, rej) => {
+        console.log('res', res);
         try {
           addDoc(collection(db, "teams"), data)
             .then((docRef) => {
@@ -390,7 +392,7 @@ const HackathonUserForm = ({
         iconPosition={"left"}
         title="Багийн гишүүн нэмэх"
         {...btnStyle}
-        style={{ borderRadius: 5, backgroundColor: "#6C247E" }}
+        style={{ borderRadius: 5, backgroundColor: "rgba(14, 14, 33, .7)" }}
         onClick={() => {
           setFieldValue("isSubmit", false);
         }}
@@ -426,7 +428,7 @@ const HackathonUserForm = ({
         onClick={() => {
           setLastUser(true);
         }}
-        style={{ borderRadius: 5, backgroundColor: "#6C247E" }}
+        style={{ borderRadius: 5, backgroundColor: "rgba(14, 14, 33, .7)" }}
       />
       <Button
         className="primary burtgel-btn"

@@ -174,7 +174,7 @@ export const experiences = {
 import Image1 from "../../assets/image/appCreative/feature/logo1.png";
 import Image2 from "../../assets/image/appCreative/feature/logo2.png";
 import Image3 from "../../assets/image/appCreative/feature/logo3.png";
-
+import Image4 from "../../assets/image/appCreative/feature/logo6.png";
 export const features = {
   title: "Түгээмэл асуултууд",
   slogan: "",
@@ -191,7 +191,7 @@ export const features = {
       thumbnail: Image1,
       title: "Хакатон хэзээ зохиогдох вэ?",
       description:
-        "2023-04-28 -аас 2023-04-29 өдрүүдэд  ШУТИС-ийн Эрдэм шинжилгээ, инновацийн төв байр (VIII байр)",
+        "2024-04-27 -аас 2024-04-28 өдрүүдэд  ШУТИС-ийн Эрдэм шинжилгээ, инновацийн төв байр (VIII байр)",
     },
     {
       id: 3,

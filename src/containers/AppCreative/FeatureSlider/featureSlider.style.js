@@ -157,7 +157,7 @@ export const FeatureItemWrapper = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: ${rgba("#6C247E", 0.1)};
+      background-color: ${rgba("rgba(14, 14, 33, .7)", 0.1)};
       color: ${themeGet("colors.white")};
       font-family: "Work Sans", sans-serif;
       font-weight: 600;

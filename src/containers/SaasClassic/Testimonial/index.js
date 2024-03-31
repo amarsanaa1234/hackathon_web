@@ -109,7 +109,7 @@ TestimonialSection.defaultProps = {
     fontSize: "14px",
     letterSpacing: "0.15em",
     fontWeight: "700",
-    color: "#6C247E",
+    color: "rgba(14, 14, 33, .7)",
     mb: "12px",
   },
   secHeading: {

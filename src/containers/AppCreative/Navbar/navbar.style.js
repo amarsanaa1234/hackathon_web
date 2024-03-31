@@ -166,7 +166,7 @@ export const MenuArea = styled.div`
         padding: 0;
         justify-content: flex-end;
         min-width: 35px;
-        color: ${themeGet("colors.primary", "#6C247E")};
+        color: ${themeGet("colors.primary", "rgba(14, 14, 33, .7)")};
         svg {
           width: 27px;
           height: auto;
@@ -179,7 +179,7 @@ export const MenuArea = styled.div`
         padding: 0;
         justify-content: flex-end;
         min-width: 35px;
-        color: ${themeGet("colors.primary", "#6C247E")};
+        color: ${themeGet("colors.primary", "rgba(14, 14, 33, .7)")};
         svg {
           width: 27px;
           height: auto;

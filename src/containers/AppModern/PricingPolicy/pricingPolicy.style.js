@@ -85,7 +85,6 @@ export const PricingCard = styled.div`
   max-width: 540px;
   padding: 0px;
   border-radius: 15px;
-  box-shadow: 0 6px 50px ${themeGet("colors.shadow", "rgba(38, 78, 118, 0.1)")};
   position: relative;
   @media only screen and (min-width: 768px) {
     padding: 20px;
