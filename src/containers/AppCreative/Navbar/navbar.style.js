@@ -57,7 +57,7 @@ const NavbarWrapper = styled.nav`
       }
       &.is-current {
         a {
-          background: linear-gradient(180deg, #495C83 0%, #2596be 100%);
+                background-color: rgba(14, 14, 33, .7);
           color: #ffffff !important;
         }
       }

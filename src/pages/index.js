@@ -28,7 +28,7 @@ import KeyFeatures from "containers/AppCreative/KeyFeatures";
 import MainBanner from "../containers/AppCreative/MainBanner";
 
 // Дуусах хугацаа
-const deadline = moment("2024-04-26");
+const deadline = moment("2024-04-24");
 const today = new Date();
 const endTime = today > deadline;
 

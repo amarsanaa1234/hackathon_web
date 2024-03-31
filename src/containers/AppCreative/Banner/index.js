@@ -24,7 +24,7 @@ import backgroundImage from "common/assets/image/appCreative/1_1.png";
 import {VideoArea} from "../Experience/experience.style";
 import {experiences} from "../../../common/data/AppCreative";
 import { ic_play_arrow } from "react-icons-kit/md/ic_play_arrow";
-
+import logo from "../../../common/assets/image/appCreative/2024MainLogo.png"
 const { slogan, title, features, video_theme, clients } = experiences;
 // close button for modal
 const CloseModalButton = () => (
@@ -51,11 +51,11 @@ const Banner = () => {
   const handleVideoModal = () => {
     openModal({
       config: {
-        className: "video-modal",
+        className: 'video-modal',
         disableDragging: true,
         default: {
-          width: "auto",
-          height: "auto",
+          width: 'auto',
+          height: 'auto',
           x: 0,
           y: 0,
         },
@@ -78,11 +78,6 @@ const Banner = () => {
 
       <Container>
         <BannerContent>
-          <div className="sp-img">
-            <Fade bottom delay={40}>
-              <NextImage src={logoImg} alt="logo Image" />
-            </Fade>
-          </div>
           <Fade up delay={100}>
             <Heading as="h1" content={`"Dev Hackathon <2024/>"`} />
           </Fade>

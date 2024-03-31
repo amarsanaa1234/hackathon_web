@@ -78,11 +78,11 @@ const Banner = () => {
             <Heading as="h2" content={`2024`}/>
           </div>
         </BannerContent>
-
+        <div id="div0" className="animation1"></div>
         <div id="div1" className="animation1"></div>
-        <div id="div2" className="animation2"></div>
-        <div id="div3" className="animation3"></div>
-        <div id="div4" className="animation3"></div>
+        <div id="div2" className="animation1"></div>
+        <div id="div3" className="animation1"></div>
+        <div id="div4" className="animation1"></div>
       </Container>
     </BannerWrapper>
   );

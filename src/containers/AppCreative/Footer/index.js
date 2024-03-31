@@ -29,9 +29,9 @@ const Footer = () => {
                 alt="Logo"
               />
               <p>ШУТИС-МХТС 400 тоот</p>
-              <p>9494 5798</p>
+              <p>8869 9655</p>
               <br />
-              <p>©2024 Made by SyscoTech Club ❤️</p>
+              <p>©2024 Made by Sys&CoTech ❤️</p>
             </Fade>
           </CopyrightInfo>
 

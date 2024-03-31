@@ -19,13 +19,17 @@ const BannerWrapper = styled.div`
         opacity: 0;
     }
     
-    .animation1, .animation2, .animation3{
+    .animation1{
         width: calc(100% - 99%);
         height: calc(100% - 90%);
         border-radius: 25px;
-        background-color: #a9fd00;
+        background-color: #0C1E33;
         position: absolute;
         z-index: 100;
+    }
+    #div0{
+        right: 737px; top:479px;
+        animation: myfirst0 10s cubic-bezier(0.71, 0, 0.27, 1.01) 2s infinite alternate;
     }
     #div1{
         right: 737px; top:479px;
@@ -55,30 +59,19 @@ const BannerWrapper = styled.div`
     }
     
     @media only screen and (max-width: 2109px) {
+        @keyframes myfirst0 {
+            0% {right: 737px;top: 479px;}
+            25% {transform: rotate(120deg);right: 687px;top: 499px;}
+            50% {transform: rotate(120deg);right: 687px;top: 499px;}
+            75% {transform: rotate(120deg);right: 687px;top: 499px;}
+            100% {right: 737px;top: 479px;}
+        }
         @keyframes myfirst1 {
-            0% {
-                right: 737px;
-                top: 479px;
-            }
-            25% {
-                transform: rotate(60deg);
-                right: 687px;
-                top: 459px;
-            }
-            50% {
-                transform: rotate(60deg);
-                right: 687px;
-                top: 459px;
-            }
-            75% {
-                transform: rotate(60deg);
-                right: 687px;
-                top: 459px;
-            }
-            100% {
-                right: 737px;
-                top: 479px;
-            }
+            0% {right: 737px;top: 479px;}
+            25% {transform: rotate(60deg);right: 687px;top: 459px;}
+            50% {transform: rotate(60deg);right: 687px;top: 459px;}
+            75% {transform: rotate(60deg);right: 687px;top: 459px;}
+            100% {right: 737px;top: 479px;}
         }
         @keyframes myfirst2 {
             0% {
@@ -106,29 +99,11 @@ const BannerWrapper = styled.div`
             }
         }
         @keyframes myfirst3 {
-            0% {
-                right: 674px;
-                top: 479px;
-            }
-            25% {
-                transform: rotate(60deg);
-                right: 298px;
-                top: 499px;
-            }
-            50% {
-                transform: rotate(60deg);
-                right: 298px;
-                top: 499px;
-            }
-            75% {
-                transform: rotate(60deg);
-                right: 298px;
-                top: 499px;
-            }
-            100% {
-                right: 674px;
-                top: 479px;
-            }
+            0% {right: 674px;top: 479px;}
+            25% {transform: rotate(60deg);right: 298px;top: 499px;}
+            50% {transform: rotate(60deg);right: 298px;top: 499px;}
+            75% {transform: rotate(60deg);right: 298px;top: 499px;}
+            100% {right: 674px;top: 479px;}
         }
         @keyframes myfirst4 {
             0% {
@@ -157,11 +132,11 @@ const BannerWrapper = styled.div`
         }
     }
     @media only screen and (max-width: 1199px) {
-        .animation1, .animation2, .animation3{
+        .animation1{
             width: calc(100% - 98.7%);
             height: calc(100% - 90%);
             border-radius: 25px;
-            background-color: #a9fd00;
+            background-color: #0C1E33;
             position: absolute;
             z-index: 100;
         }
@@ -173,6 +148,13 @@ const BannerWrapper = styled.div`
             position: absolute;
             top: 449px;
             right: 299px;
+        }
+        @keyframes myfirst0 {
+            0% {right: 637px;top: 479px;}
+            25% {transform: rotate(120deg);right: 587px;top: 499px;}
+            50% {transform: rotate(120deg);right: 587px;top: 499px;}
+            75% {transform: rotate(120deg);right: 587px;top: 499px;}
+            100% {right: 637px;top: 479px;}
         }
         @keyframes myfirst1 {
             0%  {right: 637px; top:479px;}
@@ -204,7 +186,7 @@ const BannerWrapper = styled.div`
         }
     }
     @media only screen and (max-width: 746px) {
-        .animation1, .animation2, .animation3 {
+        .animation1 {
             width: calc(100% - 98.7%);
             height: calc(100% - 94%);
         }
@@ -228,6 +210,13 @@ const BannerWrapper = styled.div`
             font-size: 80px;
             right: 199px;
         }
+        @keyframes myfirst0 {
+            0% {right: 437px;top: 479px;}
+            25% {transform: rotate(120deg);right: 387px;top: 481px;}
+            50% {transform: rotate(120deg);right: 387px;top: 481px;}
+            75% {transform: rotate(120deg);right: 387px;top: 481px;}
+            100% {right: 437px;top: 479px;}
+        }
         @keyframes myfirst1 {
             0%  {right: 437px; top:479px;}
             25%  {transform: rotate(60deg);right: 387px; top:459px;}
@@ -244,9 +233,9 @@ const BannerWrapper = styled.div`
         }
         @keyframes myfirst3 {
             0%  {right: 394px; top:479px;}
-            25%  {transform: rotate(60deg);right: 138px; top:485px;}
-            50%  {transform: rotate(60deg);right: 138px; top:485px;}
-            75%  {transform: rotate(60deg);right: 138px; top:485px;}
+            25%  {transform: rotate(60deg);right: 138px; top:481px;}
+            50%  {transform: rotate(60deg);right: 138px; top:481px;}
+            75%  {transform: rotate(60deg);right: 138px; top:481px;}
             100% {right: 394px; top:479px;}
         }
         @keyframes myfirst4 {
@@ -259,10 +248,10 @@ const BannerWrapper = styled.div`
     }
     @media only screen and (max-width: 510px) {
         .TextAnimation{
-            top: 400px;
+            top: 395px;
             right: 100px;
         }
-        .animation1, .animation2, .animation3 {
+        .animation1 {
             width: calc(100% - 97.7%);
             height: calc(100% - 94%);
         }
@@ -281,6 +270,13 @@ const BannerWrapper = styled.div`
         #div4{
             right: 394px; top:479px;
             animation: myfirst4 10s cubic-bezier(0.71, 0, 0.27, 1.01) 2s infinite alternate;
+        }
+        @keyframes myfirst0 {
+            0% {right: 270px;top: 410px;}
+            25% {transform: rotate(120deg);right: 245px;top: 420px;}
+            50% {transform: rotate(120deg);right: 245px;top: 420px;}
+            75% {transform: rotate(120deg);right: 245px;top: 420px;}
+            100% {right: 270px;top: 410px;}
         }
         @keyframes myfirst1 {
             0%  {right: 270px; top:410px;}
@@ -332,10 +328,13 @@ export const BannerContent = styled.div`
     display: flex;
     justify-content: center;
   h1 {
+      background: linear-gradient(90deg, rgba(172, 203, 238, 1) 0%, rgba(224, 236, 251, 1) 16%, rgba(172, 203, 238, 1) 33%, rgba(224, 236, 251, 1) 53%, rgba(172, 203, 238, 1) 76%, rgba(224, 236, 251, 1) 100%);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
     font-size: 120px;
     line-height: 1.25;
     font-weight: 700;
-    color: ${themeGet("colors.white", "#ffffff")};
     margin-bottom: 20px;
     letter-spacing: -2px;
     @media only screen and (max-width: 1262px) {
@@ -352,10 +351,13 @@ export const BannerContent = styled.div`
   }
   }
     h2{
+        background: linear-gradient(90deg, rgba(172, 203, 238, 1) 0%, rgba(224, 236, 251, 1) 16%, rgba(172, 203, 238, 1) 33%, rgba(224, 236, 251, 1) 53%, rgba(172, 203, 238, 1) 76%, rgba(224, 236, 251, 1) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
         font-size: 120px;
         line-height: 1.25;
         font-weight: 700;
-        color: ${themeGet("colors.white", "#ffffff")};
         margin-bottom: 20px;
         letter-spacing: -2px;
     }
@@ -422,7 +424,7 @@ export const ButtonGroup = styled.div`
     padding-right: 20px;
     margin-top: 10px;
     &.primary {
-      background-color: rgba(14, 14, 33, .7);
+      background-color: #387ADF;
       color: ${themeGet("colors.white")};
       font-size: 15px;
       min-height: 55px;

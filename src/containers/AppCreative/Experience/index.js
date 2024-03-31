@@ -113,9 +113,9 @@ const Experiences = () => {
           </ExperienceWrapper>
         </ExperienceMainWrap>
         <ClientWrapper>
-          <div className="client__text">
-            <Text as="span" content={"Ивээн тэтгэгч байгууллагууд"} />
-          </div>
+          {/*<div className="client__text">*/}
+          {/*  <Text as="span" content={"Ивээн тэтгэгч байгууллагууд"} />*/}
+          {/*</div>*/}
           <ImageSlider>
             <ImageSlide>
               {clients.map((item) => (

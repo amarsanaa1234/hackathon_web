@@ -47,7 +47,7 @@ import keyFeature3 from "../../assets/image/appCreative/key_feature/vr.svg";
 import keyFeature4 from "../../assets/image/appCreative/key_feature/Deep_learning.svg";
 
 export const pricePool = {
-  title: "TOTUL PRICE POOL",
+  title: "Нийт шагналын сан",
   slogan: "3.000.000₮",
   price: [
     {
@@ -82,7 +82,7 @@ export const chooseUs = {
       id: 1,
       title: "БҮРТГЭЛ",
       date: "APR 04-24",
-      description: "Online",
+      description: "Цахим",
     },
     {
       id: 2,

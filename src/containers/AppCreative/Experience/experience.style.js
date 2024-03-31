@@ -60,6 +60,15 @@ export const VideoArea = styled.div`
   display: inline-flex;
   position: relative;
   margin: 0 auto 60px;
+    @media only screen and (max-width: 771px) {
+        display: none;
+    }
+    .video{
+        display: none;
+        @media only screen and (max-width: 771px) {
+            display: block;
+        }
+    }
   img {
     max-width: 100%;
     object-fit: cover;

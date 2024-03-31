@@ -1,6 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 import { rgba } from "polished";
+
+const playPluse = keyframes`
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+`;
 
 const BannerWrapper = styled.div`
   padding-top: 80px;
@@ -18,7 +29,7 @@ const BannerWrapper = styled.div`
   > div.container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: calc(850px - 80px);
     @media only screen and (min-width: 1367px) {
       max-width: 1380px;
