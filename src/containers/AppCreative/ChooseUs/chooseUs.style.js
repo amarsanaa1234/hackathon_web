@@ -17,7 +17,7 @@ const SectionWrapper = styled.section`
   }
   p{
     margin-bottom: 0rem;
-    background-image: -webkit-linear-gradient(#ffffff, #CBB593 50%, #948A76 55%, #ffe2b4);
+    background-image: -webkit-linear-gradient(90deg, rgba(172,203,238,1) 0%, rgba(224,236,251,1) 16%, rgba(172,203,238,1) 33%, rgba(224,236,251,1) 53%, rgba(172,203,238,1) 76%, rgba(224,236,251,1) 100%);
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent;
@@ -59,8 +59,7 @@ const SectionWrapper = styled.section`
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(14, 14, 33, .7);
-    background-image: -webkit-linear-gradient(#ffffff, #CBB593 50%, #948A76 55%, #ffe2b4);
+    background-image: -webkit-linear-gradient(90deg, rgba(172,203,238,1) 0%, rgba(224,236,251,1) 16%, rgba(172,203,238,1) 33%, rgba(224,236,251,1) 53%, rgba(172,203,238,1) 76%, rgba(224,236,251,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
