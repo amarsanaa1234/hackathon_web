@@ -174,14 +174,14 @@ export const experiences = {
 import Image1 from "../../assets/image/appCreative/feature/logo1.png";
 import Image2 from "../../assets/image/appCreative/feature/logo2.png";
 import Image3 from "../../assets/image/appCreative/feature/logo3.png";
-import Image4 from "../../assets/image/appCreative/feature/logo6.png";
+import Image4 from "../../assets/image/appCreative/feature/logo7.png";
 export const features = {
   title: "Түгээмэл асуултууд",
   slogan: "",
   items: [
     {
       id: 1,
-      thumbnail: Image2,
+      thumbnail: Image3,
       title: "Хакатон хаана зохиогдох вэ?",
       description:
         "ШУТИС-ийн Эрдэм шинжилгээ, инновацийн төв байр (VIII байр) -ны 12 давхарт Олон улсын эрдэм шинжилгээний хурлын танхим",
@@ -195,28 +195,28 @@ export const features = {
     },
     {
       id: 3,
-      thumbnail: Image3,
+      thumbnail: Image2,
       title: "Хакатонд хэн оролцож болох вэ?",
       description:
         "Шинийг илэрхийлдэг, өөрийгөө сорих хүсэлтэй, мэдээллийн технологийн чиглэлд сонирхолтой их дээд сургуулийн оюутан залуучууд ",
     },
     {
       id: 4,
-      thumbnail: Image2,
+      thumbnail: Image4,
       title: "Ямар чадвартай хүмүүс багт байх хэрэгтэй вэ? ",
       description:
         'Хакатон бол багийн тоглолт. Тиймээс багаа бүрдүүлэхдээ олон төрлийн чадвартай, "солонгон" баг бүрдүүлэхийг зөвлөж байна. Жишээ нь: илтгэл сайн тавьдаг, UX/UI зурдаг, back-end хөгжүүлэлт хийдэг гэх мэт.',
     },
     {
       id: 5,
-      thumbnail: Image1,
+      thumbnail: Image3,
       title: "Тэмцээнд юу авч очих вэ?",
       description:
         "Лаптопоо бүтээлч сэтгэлгээтэйгээ цуг цүнхлээд ирэхэд л болно :) Нээрээ цэнэглэгчээ мартав аа",
     },
     {
       id: 6,
-      thumbnail: Image3,
+      thumbnail: Image2,
       title: "24 цаг гэхээр тэмцээний байран дээр хононо гэсэн үг үү?",
       description:
         "Үгүй дээ, өглөө 09:00 цагаас орой 22:00 цаг хүртэл багийнхантайгаа ажиллаад, гэртээ харьж, маргааш нь шүүлт болоод хаалтын ажиллагаандаа оролцоно. Харин шөнө унтах эсэх нь таны мэдэх хэрэг шүү",
