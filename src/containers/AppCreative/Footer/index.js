@@ -31,7 +31,7 @@ const Footer = () => {
               <p>ШУТИС-МХТС 400 тоот</p>
               <p>8869 9655</p>
               <br />
-              <p>©2024 Made by Sys&CoTech ❤️</p>
+              <p>© 2024 Made by Sys&CoTech</p>
             </Fade>
           </CopyrightInfo>
 

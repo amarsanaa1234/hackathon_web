@@ -57,7 +57,7 @@ const Experiences = () => {
         <ExperienceMainWrap>
           <SectionHeader>
             <Heading
-              content='"Dev Hackathon <2024/>" тэмцээний ерөнхий ивээн тэтгэгч'
+              content='"Dev Hackathon 2024" тэмцээний ерөнхий ивээн тэтгэгч'
               style={{ marginBottom: 0 }}
             />
           </SectionHeader>

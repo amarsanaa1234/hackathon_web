@@ -93,7 +93,7 @@ const CountDownSection = ({ deadline, endTime }) => {
             <Fade up>
               <Heading
                 as="h1"
-                content={`"Dev Hackathon <2024/>" бүртгэл хаагдахад`}
+                content={`"Dev Hackathon 2024" бүртгэл хаагдахад`}
                 style={{ margin: 0 }}
               />
               {/* <Text content={slogan} /> */}
