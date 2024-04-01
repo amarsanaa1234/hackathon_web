@@ -113,13 +113,13 @@ import expIcon4 from "../../assets/image/appCreative/experience/4.png";
 import videoTheme from "../../assets/image/appCreative/experienceVideo.png";
 
 // Client Logo
-import CallPro from "../../assets/image/appCreative/client_logo/8.png";
+import Databank from "../../assets/image/appCreative/client_logo/8.png";
 // import puzzleIcon from "../../assets/image/appCreative/client_logo/6.png";
 // import SystemCenter from "../../assets/image/appCreative/client_logo/5.png";
 import fibo from "../../assets/image/appCreative/client_logo/1.png";
 import naashaaIcon from "../../assets/image/appCreative/client_logo/4.png";
 export const event = {
-  icon: CallPro,
+  icon: Databank,
   title: "Databank",
   description:
     "Төлбөрийн системийн хялбар болон цогц шийдлийг таны БИЗНЕСТ. Дэлхийн технологийг дэргэдээсээ",
@@ -148,9 +148,9 @@ export const experiences = {
   clients: [
     {
       id: 1,
-      logo: CallPro,
-      name: "CallPro",
-      link: "https://www.callpro.mn",
+      logo: Databank,
+      name: "Databank",
+      link: "https://databank.mn/",
     },
     {
       id: 2,
