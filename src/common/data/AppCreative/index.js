@@ -118,11 +118,17 @@ import Databank from "../../assets/image/appCreative/client_logo/8.png";
 // import SystemCenter from "../../assets/image/appCreative/client_logo/5.png";
 import fibo from "../../assets/image/appCreative/client_logo/1.png";
 import naashaaIcon from "../../assets/image/appCreative/client_logo/4.png";
+import Rine from "../../assets/image/appCreative/client_logo/rine.png";
 export const event = {
   icon: Databank,
   title: "Databank",
   description:
     "Төлбөрийн системийн хялбар болон цогц шийдлийг таны БИЗНЕСТ. Дэлхийн технологийг дэргэдээсээ",
+};
+export const partnerOrganization = {
+  icon: Rine,
+  title: "RINE",
+  description: "Эдэлж хэрэглэж буй бүхэндээ сэтгэл хангалуун бай, итгэл даах түнштэй бол. Мэргэжлийн дэмжлэг үзүүлье."
 };
 export const experiences = {
   title: "Зохион байгуулагч",
@@ -143,7 +149,6 @@ export const experiences = {
       description:
         "Internet болон E-Commerce нь улс үндэстэн болон байршлаас үл хамааран бүгдэд адил боломжийг олгодог бөгөөд энэ боломжоо алдалгүй ашиглахад бид танд тусална.",
     },
-
   ],
   clients: [
     {
@@ -164,7 +169,12 @@ export const experiences = {
       name: "Nasha Tech",
       link: "https://www.nashatech.com",
     },
-
+    {
+      id: 4,
+      logo: Rine,
+      name: "RINE",
+      link: "https://www.instagram.com/rine.house/?fbclid=IwAR0RF6I-utgqhRugG2dYkVVnluw8q2ovP4gaTX0nUUu-dyYC5ZFeniDm-lY_aem_AXHuVL5Hy0FM9Slau2eu_ExcY49-lnlq9_Xm3WR94DBiTvQcvygjvB3-OPd4HTR-vXm73ymeeCmZylXPc9zUfYzV",
+    },
   ],
 };
 

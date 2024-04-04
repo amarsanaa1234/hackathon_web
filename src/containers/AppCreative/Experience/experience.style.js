@@ -190,6 +190,27 @@ export const ClientWrapper = styled.div`
     }
   }
 `;
+
+export const PartnerWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 15px;
+
+  .partner__item {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    width: 400px;
+    background-color: rgba(14, 14, 33, .7);
+    cursor: pointer;
+  }
+`;
+
 export const ExperienceWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +231,7 @@ export const ExperienceWrapper = styled.div`
     display: flex;
     cursor: pointer;
     border-radius: 10px;
-      background-color: rgba(14, 14, 33, .7);
+    background-color: rgba(14, 14, 33, .7);
     @media only screen and (max-width: 1366px) {
       padding: 20px 40px;
     }
@@ -241,9 +262,8 @@ export const ExperienceWrapper = styled.div`
         margin-bottom: 15px;
         margin-right: 0px;
       }
-
   }
-  
+
     @media only screen and (max-width: 1366px) {
       padding: 20px 40px;
     }
