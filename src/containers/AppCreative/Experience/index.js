@@ -13,13 +13,14 @@ import FeatureBlock from "common/components/FeatureBlock";
 import SectionWrapper, {
   ExperienceMainWrap,
   ExperienceWrapper,
+  PartnerWrapper,
   VideoWrapper,
   VideoArea,
   ClientWrapper,
   ImageSlider,
   ImageSlide,
 } from "./experience.style";
-import { experiences, event } from "common/data/AppCreative";
+import { experiences, event, partnerOrganization } from "common/data/AppCreative";
 import PricingPolicy from "containers/AppModern/PricingPolicy";
 import backgroundImage from "common/assets/image/appCreative/1_2.png";
 // close button for modal
@@ -112,6 +113,31 @@ const Experiences = () => {
             ))}
           </ExperienceWrapper>
         </ExperienceMainWrap>
+        <SectionHeader>
+          <Heading
+            content="Хамтран ажиллагч байгууллага"
+            style={{ marginBottom: 0 }}
+          />
+        </SectionHeader>
+        <PartnerWrapper>
+            <FeatureBlock
+              logo
+              className="partner__item"
+              icon={
+                <NextImage
+                  src={partnerOrganization.icon}
+                  alt={`Icon ${partnerOrganization.id}`}
+                  objectFit="contain"
+                  className="partner__image"
+                  width={200}
+                  height={100}
+                />
+              }
+              iconPosition="left"
+              title={<Heading as="h4" content={partnerOrganization.title} />}
+              description={<Text content={partnerOrganization.description} />}
+            />
+          </PartnerWrapper>
         <ClientWrapper>
           {/*<div className="client__text">*/}
           {/*  <Text as="span" content={"Ивээн тэтгэгч байгууллагууд"} />*/}
